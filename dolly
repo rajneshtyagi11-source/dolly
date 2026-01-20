@@ -1,0 +1,169 @@
+body {
+  background: linear-gradient(135deg, #ff4e50, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #ff4e50;
+}
+
+.buttons button {
+  padding: 10px 22px;
+  margin: 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons button:first-child {
+  background: #ff4e50;
+  color: white;
+}
+
+.buttons button:last-child {
+  background: #ccc;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Dolly ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>❤️ Dolly ❤️</h1>
+
+  <h2>Just For You 💖</h2>
+
+  <p>
+    Shayad tumhe idea bhi nahi hoga  
+    lekin tum kisi ki muskaan ki wajah ho 😊  
+    <br><br>
+    kya tum meri Valentine banogi? 🌹
+  </p>
+
+  <div class="buttons">
+    <button onclick="yes()">YES 😍</button>
+    <button id="no" onmouseover="moveNo()">NO 🙄</button>
+  </div>
+
+  <h2 id="result"></h2>
+</div>
+
+<script>
+function yes() {
+  document.getElementById("result").innerHTML =
+    "Yaaay! This made my day ❤️🥰";
+}
+
+function moveNo() {
+  let btn = document.getElementById("no");
+  btn.style.position = "absolute";
+  btn.style.top = Math.random() * 80 + "%";
+  btn.style.left = Math.random() * 80 + "%";
+}
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For Dolly ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>❤️ Dolly ❤️</h1>
+
+  <h2>Just For You 💖</h2>
+
+  <p>
+    Shayad tumhe idea bhi nahi hoga  
+    lekin tum kisi ki muskaan ki wajah ho 😊  
+    <br><br>
+    kya tum meri Valentine banogi? 🌹
+  </p>
+
+  <div class="buttons">
+    <button onclick="yes()">YES 😍</button>
+    <button id="no" onmouseover="moveNo()">NO 🙄</button>
+  </div>
+
+  <h2 id="result"></h2>
+</div>
+
+<script>
+function yes() {
+  document.getElementById("result").innerHTML =
+    "Yaaay! This made my day ❤️🥰";
+}
+
+function moveNo() {
+  let btn = document.getElementById("no");
+  btn.style.position = "absolute";
+  btn.style.top = Math.random() * 80 + "%";
+  btn.style.left = Math.random() * 80 + "%";
+}
+</script>
+
+</body>
+</html>
+body {
+  background: linear-gradient(135deg, #ff4e50, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  color: #ff4e50;
+}
+
+.buttons button {
+  padding: 10px 22px;
+  margin: 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttons button:first-child {
+  background: #ff4e50;
+  color: white;
+}
+
+.buttons button:last-child {
+  background: #ccc;
+}
+
